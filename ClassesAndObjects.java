@@ -19,7 +19,7 @@ public class ClassesAndObjects {
         woof.SetBreed(Sinput());
         String dogbreed = woof.getBreed();
         
-        System.out.println("Emter Dog Gender: ");
+        System.out.println("Enter Dog Gender: ");
         woof.SetGender(Cinput());
         char doggender = woof.getGender();
         
@@ -39,7 +39,7 @@ public class ClassesAndObjects {
     }
     public static String Sinput(){
         Scanner in = new Scanner(System.in);
-        String s = in.next();
+        String s = in.nextLine();
         return s;
     }
     public static int Ninput(){
